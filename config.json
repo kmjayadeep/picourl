@@ -1,0 +1,4 @@
+{
+    "baseUrl": "https://pico-url.herokuapp.com/",
+    "dbUrl": "mongodb://j:j@ds049935.mongolab.com:49935/picourl"
+}

@@ -26,17 +26,17 @@ When I visit that shortened URL, it will redirect me to my original link.
 
     <code>
 	    <div>
-	    	https://shurli.herokuapp.com/new/https://www.google.com
+	    	<%=baseUrl%>new/http://google.com
 	    </div><br/>
 	    <div>
-			https://shurli.herokuapp.com/new/http://freecodecamp.com/news
+			<%=baseUrl%>new/http://freecodecamp.com/news
 		</div>
 	</code>
     <h2>Example Creation Output:</h2>
 
     <code>
     	<div>
-    { "original_url": "http://freecodecamp.com/news", "short_url": "https://shurli.herokuapp.com/4" }
+    { "original_url": "http://google.com/news", "short_url": "<%=baseUrl%>4" }
     	</div>
     </code>
 
@@ -44,7 +44,7 @@ When I visit that shortened URL, it will redirect me to my original link.
 
     <code>
         <div>
-https://shurli.herokuapp.com/4
+<%=baseUrl%>0
         </div>
     </code>
 
@@ -52,7 +52,7 @@ https://shurli.herokuapp.com/4
 
     <code>
         <div>
-http://freecodecamp.com/news
+http://google.com
         </div>
     </code>
 
