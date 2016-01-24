@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400);
+body {
+    font-family: "Open Sans"
+}
+
+h1 {
+    margin: 1em;
+    color: #456;
+}
+
+h2 {
+    padding-left: 2em;
+    font-weight: 400;
+    color:#456;
+}
+
+ul {}
+
+ul li {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 0.5em 1em;
+    color:#456;
+}
+
+code{
+
+}
+code div{
+	background: tomato;
+	color:#fff;
+    margin-left: 5em;
+    display:inline-block;
+    padding: 0.5em
+}
